@@ -16,7 +16,6 @@ let AddTodo = ({ dispatch }) => {
 
         // Ici trouver un moyen de créer une action a notre store redux
         // pour qu'il ajoute la valeur de notre input à notre store redux
-        // tips: regarder dans nos actions
         input.value = ''
       }}>
         <input ref={node => {
