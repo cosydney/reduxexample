@@ -9,11 +9,13 @@ const getVisibleTodos = (todos, filter) => {
     case 'SHOW_COMPLETED':
       // *** //
 
+      // *** //
       // Ici retourner les todos filtrer
       // (nous souhaitons seulement celle qui sont completed)
     case 'SHOW_ACTIVE':
       // *** //
 
+      // *** //
       // Ici retourner les todos qui sont active.
     default:
       throw new Error('Unknown filter: ' + filter)

@@ -1,4 +1,5 @@
 import React from 'react'
+import { ActionCreators as UndoActionCreators } from 'redux-undo'
 import { connect } from 'react-redux'
 
 let UndoRedo = ({ canUndo, canRedo, onUndo, onRedo }) => (
@@ -20,8 +21,8 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = ({
   // *** //
 
-  // onUndo:
-  // onRedo:
+  onUndo:  //something//,
+  onRedo: //something//,
 
   // Ici, implémenter les actions onUndo et onRedo
   // qui permettront de revenir en arriére et ou en avant de nos action
