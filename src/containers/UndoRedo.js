@@ -21,8 +21,8 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = ({
   // *** //
 
-  onUndo:  //something//,
-  onRedo: //something//,
+  // onUndo:  //something//,
+  // onRedo: //something//,
 
   // Ici, implémenter les actions onUndo et onRedo
   // qui permettront de revenir en arriére et ou en avant de nos action
