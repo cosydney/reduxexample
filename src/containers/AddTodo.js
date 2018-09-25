@@ -14,9 +14,8 @@ let AddTodo = ({ dispatch }) => {
           return
         }
         // *** //
+        // Ici appeller une fonction qui changera la valeur a notre store redux:
 
-        // Ici trouver un moyen de créer une action a notre store redux
-        // pour qu'il ajoute la valeur de notre input à notre store redux
         // *** //
         input.value = ''
       }}>
